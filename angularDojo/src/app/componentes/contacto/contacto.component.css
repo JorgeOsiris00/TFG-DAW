@@ -1,0 +1,4 @@
+#contactos {
+    display: grid;
+    place-content: center;
+}

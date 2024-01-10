@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Backend.DAL\Backend.DAL.csproj" />
+    <ProjectReference Include="..\Backend.DTO\Backend.DTO.csproj" />
+    <ProjectReference Include="..\Backend.Model\Backend.Model.csproj" />
+    <ProjectReference Include="..\Backend.Utility\Backend.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<div class="login">
+    <form [formGroup]="formularioLogin" (ngSubmit)="login()" class="custom-form" method="post" id="formularioLogin">
+        <h1>Inicio de Sesión</h1>
+        <input formControlName="email" type="email" [(ngModel)]="email" name="email" placeholder="Email" required="required" />
+
+        <input formControlName="clave" type="clave" [(ngModel)]="clave" name="clave" placeholder="Clave" required="required" />
+
+        <p *ngIf="autentificado">Necesita introducir las credenciales para Iniciar Sesión.</p>
+        <p *ngIf="!autentificado">Necesita hacer Iniciar Sesion para entrar a la web.</p>
+
+        <button type="submit" [disabled]="formularioLogin.invalid">Iniciar Sesion</button>
+    </form>
+</div>

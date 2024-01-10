@@ -1,0 +1,37 @@
+<app-menu></app-menu>
+<div class="formulario">
+    <form [formGroup]="formularioUsuario" class="custom-form">
+        <h1>
+            {{titulo}}
+        </h1>
+        <div class="example-container">
+            Nombre: <br>
+            <input *ngIf="control" type="text" matInput placeholder="{{usuario.nombre}}" formControlName="nombre" (ngModel)="usuario.nombre" required required pattern="[A-Za-z]+" minlength="1">
+            <input *ngIf="!control" type="text" placeholder="{{usuario.nombre}}" formControlName="nombre" value="{{usuario.nombre}}">
+        </div>
+        <div class="example-container">
+            Correo: <br>
+            <input *ngIf="control" type="text" matInput placeholder="{{usuario.correo}}" formControlName="correo" (ngModel)="usuario.correo" required required pattern="[A-Za-z]+" minlength="1">
+            <input *ngIf="!control" type="text" matInput placeholder="{{usuario.correo}}" formControlName="correo" (ngModel)="usuario.correo" pattern="[A-Za-z]+" minlength="1">
+        </div>
+        <div *ngIf="control" class="example-container">
+            Contraseña: <br>
+            <input *ngIf="control" type="text" matInput placeholder="{{usuario.password}}" formControlName="password" (ngModel)="usuario.password" required required pattern="[A-Za-z0-9]+" minlength="1">
+        </div>
+        <div class="example-container">
+            Rol: <br>
+            <input *ngIf="control" type="text" matInput placeholder="{{usuario.rol}}" formControlName="rol" (ngModel)="usuario.rol" required required pattern="[A-Za-z0-9]+" minlength="1">
+            <input *ngIf="!control" type="text" matInput placeholder="{{usuario.rol}}" formControlName="rol" (ngModel)="usuario.rol" pattern="[A-Za-z0-9]+" minlength="1">
+        </div>
+        <div class="example-container">
+            Dojo: <br>
+            <input *ngIf="control" type="text" matInput placeholder="{{usuario.dojo}}" formControlName="dojo" (ngModel)="usuario.dojo" required required pattern="[A-Za-z0-9]+" minlength="1">
+            <input *ngIf="!control" type="text" matInput placeholder="{{usuario.dojo}}" formControlName="dojo" (ngModel)="usuario.dojo" pattern="[A-Za-z0-9]+" minlength="1">
+        </div>
+        <br>
+        <button *ngIf="control" type="submit" class="btn btn-dark" color="primary" aria-label="icon azul" (click)="alta()">Enviar</button>
+        <button *ngIf="!control" type="submit" class="btn btn-dark" color="primary" aria-label="icon azul" (click)="editar()">Editar</button>
+        <button class="btn btn-dark" color="secondary" aria-label="icon azul" (click)="cancelar()">Cancelar</button>
+    </form>
+</div>
+<app-footer></app-footer>

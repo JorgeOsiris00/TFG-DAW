@@ -1,0 +1,394 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.IOC\\Backend.IOC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.BLL\\Backend.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.BLL\\Backend.BLL.csproj",
+        "projectName": "Backend.BLL",
+        "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.BLL\\Backend.BLL.csproj",
+        "packagesPath": "C:\\Users\\osiris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osiris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DAL\\Backend.DAL.csproj": {
+                "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DAL\\Backend.DAL.csproj"
+              },
+              "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DTO\\Backend.DTO.csproj": {
+                "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DTO\\Backend.DTO.csproj"
+              },
+              "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Model\\Backend.Model.csproj": {
+                "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Model\\Backend.Model.csproj"
+              },
+              "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Utility\\Backend.Utility.csproj": {
+                "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Utility\\Backend.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DAL\\Backend.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DAL\\Backend.DAL.csproj",
+        "projectName": "Backend.DAL",
+        "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DAL\\Backend.DAL.csproj",
+        "packagesPath": "C:\\Users\\osiris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osiris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Model\\Backend.Model.csproj": {
+                "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Model\\Backend.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DTO\\Backend.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DTO\\Backend.DTO.csproj",
+        "projectName": "Backend.DTO",
+        "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DTO\\Backend.DTO.csproj",
+        "packagesPath": "C:\\Users\\osiris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osiris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.IOC\\Backend.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.IOC\\Backend.IOC.csproj",
+        "projectName": "Backend.IOC",
+        "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.IOC\\Backend.IOC.csproj",
+        "packagesPath": "C:\\Users\\osiris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osiris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.BLL\\Backend.BLL.csproj": {
+                "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.BLL\\Backend.BLL.csproj"
+              },
+              "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DAL\\Backend.DAL.csproj": {
+                "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DAL\\Backend.DAL.csproj"
+              },
+              "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Utility\\Backend.Utility.csproj": {
+                "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Utility\\Backend.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Model\\Backend.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Model\\Backend.Model.csproj",
+        "projectName": "Backend.Model",
+        "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Model\\Backend.Model.csproj",
+        "packagesPath": "C:\\Users\\osiris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osiris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Utility\\Backend.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Utility\\Backend.Utility.csproj",
+        "projectName": "Backend.Utility",
+        "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Utility\\Backend.Utility.csproj",
+        "packagesPath": "C:\\Users\\osiris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osiris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DTO\\Backend.DTO.csproj": {
+                "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.DTO\\Backend.DTO.csproj"
+              },
+              "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Model\\Backend.Model.csproj": {
+                "projectPath": "C:\\Users\\osiris\\Desktop\\dojoAngular\\TfgBackenApi\\Backend.Model\\Backend.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

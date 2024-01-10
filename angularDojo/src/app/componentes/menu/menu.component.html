@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <img src="../../assets/img/aikidoKanji.png" alt="Kanji aikido not found" style="max-width: 2rem;" routerLink="/index"><br>
+            <a class="navbar-brand" routerLink="/index">Inicio</a>
+            <a class="navbar-brand" routerLink="/tablaDojos">Dojos</a>
+            <a class="navbar-brand" routerLink="/tablaAlumnos">Alumnos</a>
+            <a *ngIf="controlUsuario" class="navbar-brand" routerLink="/tablaUsuarios">Usuarios</a>
+            <p>|</p>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLink="/noticias">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/contactos">Contactos</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <a class="navbar-brand" routerLink="/accesibilidad">Criterios</a>
+                <a class="navbar-brand" routerLink="/mapa">MapaWeb</a>
+            </form>
+        </div>
+    </div>
+</nav>

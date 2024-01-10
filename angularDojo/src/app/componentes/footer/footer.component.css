@@ -1,0 +1,10 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+#footer {
+    position: absolute;
+    left: -0.5%;
+}
+
+.hoguera {
+    display: grid;
+    place-content: center;
+}

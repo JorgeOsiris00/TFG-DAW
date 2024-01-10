@@ -1,0 +1,4 @@
+C:\Users\osiris\Desktop\dojoAngular\TfgBackenApi\obj\Debug\net7.0\TfgBackenApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osiris\Desktop\dojoAngular\TfgBackenApi\obj\Debug\net7.0\TfgBackenApi.AssemblyInfoInputs.cache
+C:\Users\osiris\Desktop\dojoAngular\TfgBackenApi\obj\Debug\net7.0\TfgBackenApi.AssemblyInfo.cs
+C:\Users\osiris\Desktop\dojoAngular\TfgBackenApi\obj\Debug\net7.0\TfgBackenApi.csproj.CoreCompileInputs.cache
